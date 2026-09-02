@@ -34,7 +34,7 @@ Nous allons nous concentrer uniquement sur :
 - Animations simples
 - Organisation du code CSS
 
-## 3️⃣ JavaScript (Vanilla JS)
+## 3️⃣ JavaScript 
 - Manipulation du DOM
 - Gestion des événements
 - Création dynamique d’éléments
