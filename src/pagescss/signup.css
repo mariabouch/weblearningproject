@@ -1,0 +1,136 @@
+.Signup-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: radial-gradient(circle, rgba(235,190,195,1) 0%, rgba(200,140,150,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Signup-page-wrapper {
+    width: 100%;
+    max-width: 800px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Signup-card {  
+    background-color:#faeaea;
+    border-radius: 40px; 
+    display: flex;
+    overflow: hidden; 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 
+    0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.Signup-image-section {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Signup-image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.Signup-form-section {
+    flex: 1; 
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Signup-form-section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #a0606a; 
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.input-field {
+    margin-bottom: 20px;
+}
+.input-field label {
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    color: #a0606a;
+    margin-bottom:5px;
+}
+.input-wrapper {
+    position: relative;
+    border-bottom: 2px solid #d8a0aa; 
+}
+.input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 16px;
+}
+.Signup-submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #e3b2bb, #d8a0aa); 
+    border: none;
+    border-radius: 30px; 
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(216, 160, 170, 0.4);
+}
+.Signup-submit-btn:hover {
+    background: linear-gradient(to right, #d8a0aa, #e3b2bb); 
+    box-shadow: 0 8px 20px rgba(216, 160, 170, 0.6);
+}
+
+.google-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #e3b2bb, #d8a0aa); 
+    border: none;
+    border-radius: 30px; 
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(216, 160, 170, 0.4);
+}
+
+.google-btn i {
+    margin-right: 10px;
+    color: #130e5f;
+}
+.google-btn:hover {
+    background: linear-gradient(to right, #d8a0aa, #e3b2bb); 
+    box-shadow: 0 8px 20px rgba(216, 160, 170, 0.6);
+}
+@media (max-width: 768px) {
+    .Signup-card {
+        flex-direction: column; 
+        max-width: 400px;
+    }
+    .Signup-image-section {
+        display: block; 
+    }
+    .Signup-form-section {
+        padding: 40px;
+    }
+}
